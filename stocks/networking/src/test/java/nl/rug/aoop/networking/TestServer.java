@@ -36,11 +36,6 @@ public class TestServer {
     }
 
     @Test
-    public void testServerRun() {
-
-    }
-
-    @Test
      public void testPort() {
         assertEquals(server.getPort(), server.getServerSocket().getLocalPort());
     }
